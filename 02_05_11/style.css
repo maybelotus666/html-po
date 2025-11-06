@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 17, 0);
+}
+
+.header{
+    background-color: rgb(255, 238, 0);
+    color:rgb(184, 81, 49);
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    background-color: darkred;
+    boderder-radius: 5px;
+    border-radius: 5px;
+    border: 10px solid yellow;
+
+}
+
+.caixa2{
+    background-color: yellow
+    
+}
