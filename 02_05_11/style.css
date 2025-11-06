@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(255, 17, 0);
+    background-color: rgb(248, 199, 215);
 }
 
 .header{
-    background-color: rgb(255, 238, 0);
-    color:rgb(184, 81, 49);
+    background-color: rgb(235, 247, 193);
+    color:rgb(250, 136, 160);
     text-align: center;
     padding: 10px;
 }
@@ -22,4 +22,12 @@ body {
 .caixa2{
     background-color: yellow
     
+}
+
+.gallery img {
+    width: 120px; /* ajuste para o tamanho desejado */
+    height: auto;
+    object-fit: cover; /* mantém proporção e corta se necessário */
+    display: inline-block;
+    margin-right: 8px; 
 }
