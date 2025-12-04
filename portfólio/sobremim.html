@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sobre mim </title>
+</head>
+<body>
+ <section>
+    <h1>Lótus</h1>
+    <p>Sou uma estudante de programação que sonha em ser desenvolvedora front-end!</p>
+ 
+    <p id="moreText" style="display:none; margin-top:0.5em;">Estou estudando para me especializar em design UI e UX em uma ligação perfeita a execução da programação front-end </p>
+    <button id="toggleBtn" aria-expanded="false" aria-controls="moreText">Ler mais</button>
+ </section>
+ 
+ <script>
+ document.getElementById('toggleBtn').addEventListener('click', function(){
+   var more = document.getElementById('moreText');
+   var isOpen = this.getAttribute('aria-expanded') === 'true';
+   if(isOpen){
+     more.style.display = 'none';
+     this.textContent = 'Ler mais';
+     this.setAttribute('aria-expanded','false');
+   } else {
+     more.style.display = 'block';
+     this.textContent = 'Ler menos';
+     this.setAttribute('aria-expanded','true');
+   }
+ });
+ </script>
+ 
+ <section>
+    <h1>Portfólio visual</h1>
+    <img src="">
+ 
+</section>
+</body>
+</html>

@@ -1,0 +1,202 @@
+
+
+body {
+    background-color: #FFEEF8;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.iphone-15-pro-max {
+    background-color:#fff;
+    width: 320px;
+    height: 600px;
+    border-radius: 40px;
+    border: 8px solid #ff007f;
+    box-shadow: 0 20px 40px rgba(0,0,0,0,2);
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color:#ff007f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.tela-jogo {
+    background-color:#222;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid gold;
+    border-radius:15px;
+    overflow-y:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.item-1 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-2 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-3 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+    order:-3;
+}
+
+.item-4 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-5 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-6 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-7 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+    order:-3;
+}
+
+.item-8 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-9 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+
+.controles {
+    padding: 15px;
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.botao {
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    font-weight:bold;
+    cursor:pointer;
+    flex-grow: 10000;
+    align-items: center;
+}
+
+
+.deposito {
+    background-color:#ddd;
+    color:#333;
+}
+
+.apostar {
+    background-color:#00ff7f;
+    color:#004422;
+    flex-grow: 500000000000;
+}
+
+footer {
+    text-align: center;
+    color: #aaa;
+    padding-bottom: 10px;
+}
